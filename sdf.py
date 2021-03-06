@@ -40,38 +40,47 @@ def reset_on():
 			ab=True
 			obnul()
 			game_count+=1
+			Lab['text']='Игра: ',game_count
 		elif (but1.cget('text')!= ' ')and but1.cget('text') == but4.cget('text') and but4.cget('text') == but7.cget('text'):
 			ab=True
 			obnul()
 			game_count+=1
+			Lab['text']='Игра: ',game_count
 		elif (but4.cget('text')!= ' ')and but4.cget('text') == but5.cget('text') and but5.cget('text') == but6.cget('text'):
 			ab=True
 			obnul()
 			game_count+=1
+			Lab['text']='Игра: ',game_count
 		elif (but7.cget('text')!= ' ')and but7.cget('text') == but8.cget('text') and but8.cget('text') == but9.cget('text'):
 			ab=True
 			obnul()
 			game_count+=1
+			Lab['text']='Игра: ',game_count
 		elif (but3.cget('text')!= ' ')and but3.cget('text') == but6.cget('text') and but6.cget('text') == but9.cget('text'):
 			ab=True
 			obnul()
 			game_count+=1
+			Lab['text']='Игра: ',game_count
 		elif (but2.cget('text')!= ' ')and but2.cget('text') == but5.cget('text') and but5.cget('text') == but8.cget('text'):
 			ab=True
 			obnul()
 			game_count+=1
+			Lab['text']='Игра: ',game_count
 		elif (but1.cget('text')!= ' ')and but1.cget('text') == but5.cget('text') and but5.cget('text') == but9.cget('text'):
 			ab=True
 			obnul()
 			game_count+=1
+			Lab['text']='Игра: ',game_count
 		elif (but1.cget('text')!= ' ')and but1.cget('text') == but4.cget('text') and but4.cget('text') == but7.cget('text'):
 			ab=True
 			obnul()
 			game_count+=1
+			Lab['text']='Игра: ',game_count
 		elif (but3.cget('text')!= ' ')and but3.cget('text') == but5.cget('text') and but5.cget('text') == but7.cget('text'):
 			ab=True
 			obnul()
 			game_count+=1
+			Lab['text']='Игра: ',game_count
 		return ab
 
 def reset_off(e):	
@@ -82,7 +91,7 @@ def reset_off(e):
 
 def cheker_on():
 	global count_check, game_count
-	messagebox.showinfo(title="АвтоПроверка", message="Успешно включено")
+	messagebox.showinfo(title="Отключено разработчиком", message="Отключено разработчиком")
 	count_check=True
 def cheker_off():
 	global count_check
