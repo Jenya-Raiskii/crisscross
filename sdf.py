@@ -82,7 +82,7 @@ def reset_off(e):
 
 def cheker_on():
 	global count_check, game_count
-	messagebox.showinfo(title="Отключено разработчиком", message="Отключено разработчиком")
+	messagebox.showinfo(title="АвтоПроверка", message="Успешно включено")
 	count_check=True
 def cheker_off():
 	global count_check
