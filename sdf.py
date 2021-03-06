@@ -1,7 +1,7 @@
 from tkinter import *
 from tkinter import messagebox
-a ='O'
-i=1 
+a ='X'
+i=0 
 game_count=0
 count_check=False
 ab=False
