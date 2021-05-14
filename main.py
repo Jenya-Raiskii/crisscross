@@ -1,0 +1,52 @@
+from tkinter import *
+
+def prov():
+  a=0
+  if ent1.get()=='1774 – 1831':
+    a+=1
+
+root= Tk()
+
+quest1 = Label(text='В каких годах было написано произведение И. В. Гете «Фауст»?')
+quest2 = Label(text='К какому литературному жанру относится произведение И. В. Гете «Фауст»?')
+quest3 = Label(text='К какому литературному направлению относится произведение И. В. Гете «Фауст»?')
+quest4 = Label(text='Какой спор заключили между собой Мефистофель и Господь?')
+quest5 = Label(text='Каким словом, по мнению Фауста, на самом деле заканчивалась известная фраза из Нового Завета – «В начале было Слово»?')
+quest6 = Label(text='В каком образе Мефистофель явился к Фаусту при первой их встрече?')
+quest7 = Label(text='О ком из героев идет речь в цитате: «Часть силы той, что без числа / Творит добро, всему желая зла»?')
+quest8 = Label(text='Кто приготовил Фаусту омолаживающее зелье?')
+quest9 = Label(text='Что случилось с матерью Гретхен?')
+quest10 = Label(text='Где произошла последняя встреча Фауста и Гретхен?')
+ent1=Entry()
+ent2=Entry()
+ent3=Entry()
+ent4=Entry()
+ent5=Entry()
+ent6=Entry()
+ent7=Entry()
+ent8=Entry()
+ent9=Entry()
+ent10=Entry()
+quest1.pack()
+ent1.pack()
+quest2.pack()
+ent2.pack()
+quest3.pack()
+ent3.pack()
+quest4.pack()
+ent4.pack()
+quest5.pack()
+ent5.pack()
+quest6.pack()
+ent5.pack()
+quest7.pack()
+ent7.pack()
+quest8.pack()
+ent8.pack()
+quest9.pack()
+ent9.pack()
+quest10.pack()
+ent10.pack()
+
+But=Button(text='Проверить',command=prov)
+root.mainloop()
